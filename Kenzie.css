@@ -1,6 +1,17 @@
 /* Base */
 
+h1{
 
+}
+
+p{
+
+}
+
+
+
+
+/* Layout */
 
 .navbar{
     display: flex;
@@ -11,26 +22,22 @@
     list-style: none;
 }
 
-/* Layout */
-.intro{
+
+/* Block */
+.body_intro{
     text-align: center;
 
 }
-.quotes{
+.body_quotes{
     display: flex;
 }
 
-.dates{
+.body_menu{
     display: flex;
 }
-.dates button{
 
-    height: 30px;    
-}
 .people{
     background-color: rgba(179, 171, 171, 0.479);
     display: flex;
     justify-content: space-evenly;
 }
-
-/* Block */
