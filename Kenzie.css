@@ -1,1 +1,51 @@
-/* No CSS *//*# sourceMappingURL=Kenzie.css.map */
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: blue;
+}
+
+.nav-bar li {
+  list-style: none;
+}
+
+.nav-bar button {
+  background-color: blue;
+}
+
+.nav-bar .blue-button {
+  color: white;
+}
+
+.hero h1, .hero h2 {
+  text-align: center;
+}
+
+.hero h1 iframe, .hero h2 iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+
+.signup-form h3, .signup-form p {
+  text-align: center;
+}
+
+.signup-form h3 {
+  font-size: 50px;
+}
+
+.signup-form .form_input.form_input2 {
+  text-align: center;
+}
+/*# sourceMappingURL=Kenzie.css.map */
