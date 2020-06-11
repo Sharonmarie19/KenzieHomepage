@@ -18,6 +18,7 @@
 
 .nav-bar .blue-button {
   color: white;
+  background-color: blue;
 }
 
 .hero h1, .hero h2 {
@@ -45,7 +46,11 @@
   font-size: 50px;
 }
 
-.signup-form .form_input.form_input2 {
+.signup-form .form_input {
+  text-align: center;
+}
+
+.signup-form .form_input2 {
   text-align: center;
 }
 /*# sourceMappingURL=Kenzie.css.map */

@@ -10,25 +10,22 @@
         background-color: blue;
 
     }
-    .blue-button{
+   .blue-button{
         color: white; 
+        background-color: blue;
     }
-
-}
+    }
  .hero{
     h1, h2{
         text-align: center;
         iframe{
             display: flex;
-            justify-content: center;
-        }
-        
-    }
+            justify-content: center; }
+         }
     h1{
         font-size: 60px;
     }
-   
- }
+   }
 .signup-form{
    
     h3, p{
@@ -37,11 +34,11 @@
     h3{
         font-size: 50px;
     }
-    .form_input.form_input2{
+    .form_input{
         text-align: center;
     }
-   
+    .form_input2{
+        text-align: center;
+    }
+    
 }
-
-
-
