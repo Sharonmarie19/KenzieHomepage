@@ -42,3 +42,13 @@
     }
     
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: 50%;
+    text-align: center;
+}
+
+.grid-people{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
