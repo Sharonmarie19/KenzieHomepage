@@ -7,9 +7,13 @@
     --button-border-width:1px;
     --button-borderstyle:solid;
     --button-border-color:rgb(156, 151, 151);
+    --font-size-grid:11px;
 }
 
-
+.nav-bar{
+    display:flex;
+    
+}
 
 button{
     background-color: var(--bgbutton-color);
@@ -19,4 +23,25 @@ button{
     border-style: var(--button-borderstyle);
     border-radius: var(--button-radious);
     border-width: var(--button-border-width);
+}
+.hero h1{
+    text-align: center;
+    font-size:30px;
+}
+h2{
+    font-size: 15px;
+    text-align: center;
+}
+iframe{
+    width: 90%;
+    height: 70%;
+}
+.grid-quotes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: var(--font-size-grid);
+}
+
+.body_grid-menu{
+    
 }
