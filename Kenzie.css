@@ -1,6 +1,6 @@
 :root{
     --bggrid-color:rgb(225, 229, 233);
-    --bgbutton-color:rgb(204, 222, 243);
+    --bgbutton-color:white;
     --button-textcolor:white;
     --button-width: 40%;
     --button2-width: 80%;
@@ -36,8 +36,28 @@
 a:hover{
     background-color: var(--hover-color);
 }
+li{
+    list-style: none;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+
+.header_ul{
+    display: flex;
+    font-size: 25%;
+    justify-content:space-evenly;
+}
+
+.button{
+    background-color: #02356a;
+    color: var(--bgbutton-color);
+    border-radius: var();
+    padding: 3px;
+}
 .home-img{
-    width: 10%;
+    width: 15%;
     border: #11e69f solid;
 }
 .hero,h1{
