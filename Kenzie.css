@@ -166,6 +166,8 @@ text-align: center;
 }
 
 .submit{
+    color:var(--button-textcolor-dt);
+    background-color: #02356a;
     border-radius: var(--button-radious);
     border-width: var(--button-border-width);        
     border-color: var(--button-border-color);
