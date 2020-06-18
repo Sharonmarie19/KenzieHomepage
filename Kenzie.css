@@ -1,6 +1,6 @@
 :root{
     --bggrid-color:rgb(225, 229, 233);
-    --bgbutton-color:white;
+    --bgbutton-color:rgb(210, 218, 243);
     --button-textcolor:white;
     --button-width: 40%;
     --button2-width: 80%;
@@ -217,7 +217,7 @@ text-align: center;
         width: 10%;
     }
     .button{
-        background-color: var(--bgbutton-color-dt);
+        background-color: #02356a;
         width: var(--button-width-dt);
         padding: 5px;
         font-size: var(--button-fontsize-dt);
@@ -302,7 +302,8 @@ text-align: center;
             border-color: var(--button-border-color-dt);
         }
         .submit{
-            
+            color:var(--button-textcolor-dt);
+            background-color: #02356a;
             border-color: var(--button-border-color-dt);
         }
 }
