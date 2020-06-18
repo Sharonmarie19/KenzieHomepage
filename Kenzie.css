@@ -144,7 +144,17 @@ text-align: center;
     font-size: var(--bodyfont-size-grid);
     text-align: center;
 }
+
+.submit{
+    border-radius: var(--button-radious);
+    border-width: var(--button-border-width);        
+    border-color: var(--button-border-color);
+}
 /* Desktop Variables */
+
+
+
+
 :root{
     --bggrid-color-dt:rgb(225, 229, 233);
     --bgbutton-color-dt:rgb(204, 222, 243);
@@ -161,12 +171,6 @@ text-align: center;
     --bodyfont-size-grid-dt:13px;
     --nav-font-size-dt:15px;
     --heading-fontsize-dt:14px;
-}
-
-.submit{
-    border-radius: var(--button-radious);
-    border-width: var(--button-border-width);        
-    border-color: var(--button-border-color);
 }
 
 @media(min-width: 550px){
