@@ -12,12 +12,15 @@
     --button-border-color:rgb(156, 151, 151);
     --font-size-grid:11px;
     --bodyfont-size-grid:13px;
+    --nav-font-size:15px
 }
 
-.nav-bar{
-    display:flex;
-    
+
+
+.home-img{
+    width: 10%;
 }
+
 
 button{
     background-color: var(--bgbutton-color);
